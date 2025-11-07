@@ -1,0 +1,27 @@
+{
+  "name": "gestionnotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "  node --watch src/app.js"
+  },
+  "bin": {
+    "phanie": "exe.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@amk-7/fetch": "^1.0.11",
+    "commander": "^14.0.1",
+    "dotenv": "^17.2.3",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
