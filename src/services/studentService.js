@@ -87,7 +87,7 @@ export default class StudentService {
         })   */ 
 
         this.studentRepository.update(id,student);
-        return await this.get(student);
+        return await this.get(lastID);
         
 
             
